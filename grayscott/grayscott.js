@@ -37,12 +37,10 @@ var mMinusOnes = new THREE.Vector2(-1, -1);
 // Some presets.
 var presets = [
     { // Default
-        //feed: 0.018,
-        //kill: 0.051
-        feed: 0.037,
-        kill: 0.06
+        feed: 0.018,
+        kill: 0.054       
     },
-    { // Solitons
+/*    { // Solitons
         feed: 0.03,
         kill: 0.062
     },
@@ -86,6 +84,7 @@ var presets = [
         feed: 0.062,
         kill: 0.06093
     }
+    */
 ];
 
 // Configuration.
